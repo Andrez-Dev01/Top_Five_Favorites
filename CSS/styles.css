@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* --- Text and Body Styles --- */
+body {
+    background-color: aqua;
+}
+
+
+#wrapper h1 {
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    color: purple;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#wrapper h2 {
+    text-align: center;
+    font-family: "Faster One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: orange;
+}
+
+#wrapper p {
+    color: rgba(7, 6, 6, 0.959);
+    font-size: 20px;  
+}
+
+/* --- List Styles --- */
+#movie-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+#movie-list li {
+    width: 600px;
+}
+
+#movie-list a {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background: grey;
+    color: #fff;
+    border-radius: 30px;
+    padding: 18px 0;
+    font-size: 22px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+    transition: background 0.2s;
+}
+
+#movie-list a:hover {
+    background: darkgrey;
+}
+
+/* --- Image Styles --- */
+#wrapper .images {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);    
+}
+
+
+/* --- Back Button Styles --- */
+#backBtn {
+    display:block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: lightblue;
+    color: rgba(7, 6, 6, 0.959);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*---- Top-five Containers (artist, food, hobbies) ----*/
+#top-five-artist-container,
+#top-five-food-container,
+#top-five-hobbies-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Section style for artist and other top-five sections */
+.artist-section,
+.top-five-section {
+    flex: 1;
+    min-width: 200px;
+    border: 5px solid grey;
+    border-radius: 8px;    
+    padding: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: bisque;
+}
+
+.artist-section img,
+.top-five-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.artist-section h3,
+.top-five-section h3 {
+    color: grey;
+}
+
+/*---- Footer Section ----*/
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: lightgrey;
+    margin-top: 20px;
+}
