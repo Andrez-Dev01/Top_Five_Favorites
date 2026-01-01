@@ -31,6 +31,4 @@ You can view a live version of this project on GitHub Pages:
 
 **[https://andrez-dev01.github.io/Top_Five_Favorites/](https://andrez-dev01.github.io/Top_Five_Favorites/)**
 
-*(Note: You may need to [enable GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) in your repository's "Settings" tab for this link to work.)*
-
 Alternatively, you can download or clone this repository and open the `index.html` file directly in your browser.
